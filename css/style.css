@@ -104,13 +104,14 @@ body {
 
 .about_block {
   text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .about_title {
   font-size: 36px;
   color:  #424242;
-  padding: 0;
-  margin: 60px auto 0;
+  margin: 0 auto;
 }
 
 .about_text {
@@ -124,6 +125,7 @@ body {
 .about_miniblock {
   display: inline-block;
   max-width: 30%;
+  margin: 0 15px;
 }
 
 .miniblock_title {
@@ -151,3 +153,80 @@ body {
 .icn_ads {
   background: url(../images/ic-comment.png) no-repeat 50% 0;
 }
+
+.approach_block {
+  padding: 80px 0 50px;
+  background: #f3f3f3;
+}
+
+.approach_title {
+  color: #424242;
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+.approach_text {
+  color: #424242;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.steps_block {
+  background: #fff;
+}
+
+.steps {
+  padding: 0 0 30px 0;
+}
+
+.step1 img {
+  float: left;
+}
+
+.step_info1 {
+  padding: 30px 20px 0 400px;
+}
+
+.step2 img {
+  float: right;
+}
+
+.step_info2 {
+  padding: 30px 400px 0 20px;
+  text-align: right;
+}
+
+.step3 img {
+  float: left;
+}
+
+.step_info3 {
+  padding: 30px 20px 0 400px;
+}
+
+.step4 img {
+  float: right;
+}
+
+.step_info4 {
+  padding: 30px 400px 0 20px;
+  text-align: right;
+}
+
+footer {
+  background: #515151;
+  min-height: 50px;
+}
+
+footer p {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #cecece;
+  font-weight: normal;
+  text-align: right;
+}
+
