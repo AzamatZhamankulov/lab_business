@@ -101,3 +101,53 @@ body {
   padding: 20px 40px;
   border-radius: 5px;
 }
+
+.about_block {
+  text-align: center;
+}
+
+.about_title {
+  font-size: 36px;
+  color:  #424242;
+  padding: 0;
+  margin: 60px auto 0;
+}
+
+.about_text {
+  font-size: 20px;
+  font-weight: bold;
+  color:  #424242;
+  padding: 0;
+  margin: 0 auto 20px;
+}
+
+.about_miniblock {
+  display: inline-block;
+  max-width: 30%;
+}
+
+.miniblock_title {
+  padding-top: 100px;
+  font-size: 22px;
+  color:  #424242;
+}
+
+.about_miniblock a {
+  text-decoration: none;
+}
+
+.miniblock_descr {
+  font-weight: normal;
+}
+
+.icn_facebook {
+  background: url(../images/ic-hand.png) no-repeat 50% 0;
+}
+
+.icn_landing {
+  background: url(../images/ic-book.png) no-repeat 50% 0;
+}
+
+.icn_ads {
+  background: url(../images/ic-comment.png) no-repeat 50% 0;
+}
